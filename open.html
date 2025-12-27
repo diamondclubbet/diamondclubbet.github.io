@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>一键展开网页</title>
+</head>
+<body>
+
+<h2>一键展开工作网页</h2>
+<p>点击下面按钮，将自动打开所有常用网页。</p>
+<p>第一次使用请允许浏览器弹出窗口。</p>
+
+<button onclick="openAll()">🚀 打开所有网页</button>
+
+<script>
+const pages = [
+  "https://opback.mq88.club/login",
+  "https://opback.mq88.club/login",
+  "https://jd77.gd66.net/",
+  "https://jd77.gd66.net/",
+  "https://cuci99.cc/cuci99_8dc8866d33935cda974d1715",
+  "https://cuci99.cc/cuci99_8dc8866d33935cda974d1715",
+  "https://oauth.rebrandly.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D1FEB3DDD-8AC7-4F83-A2B3-ED4EB558DFA2%26redirect_uri%3Dhttps%253A%252F%252Fapp.rebrandly.com%26state%3DeyJwYXRoIjoiL2xpbmtzIn0%253D%26response_type%3Dcode%26acr_values%3Dcmd%253Arelogin%2520flow%253Auser%2520plan%253A16f08fb9749d417eb142a326a2d0527c%26scope%3Drbapi%2520offline_access%2520rbapikeys%2520rbinvites%2520rbdowngrade",
+  "https://livechatsupport.support/mqjdcc_chatroom_91418fde3ea4cadaa5f6efeb"
+];
+
+function openAll() {
+  pages.forEach((url, i) => {
+    setTimeout(() => {
+      window.open(url, "_blank");
+    }, i * 700);
+  });
+}
+</script>
+
+</body>
+</html>
