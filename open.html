@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>一键展开网页</title>
+
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      font-family: Arial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box {
+      background: #1c1c1c;
+      padding: 40px;
+      border-radius: 12px;
+      text-align: center;
+      width: 520px;
+    }
+    h2 {
+      color: gold;
+      margin-bottom: 25px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      margin: 12px 0;
+      padding: 14px;
+      font-size: 18px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      background: gold;
+      color: #000;
+    }
+    button:hover {
+      background: #ffd700;
+    }
+  </style>
+</head>
+
+<body>
+<div class="box">
+  <h2>🔗 工作网页快速入口</h2>
+
+  <button onclick="openDEPOSIT()">🏦 打开DEPOSIT</button>
+  <button onclick="openWITHDRAW()">📊 打开 WITHDRAW</button>
+</div>
+
+<script>
+function openGroup(pages) {
+  pages.forEach((url, i) => {
+    setTimeout(() => {
+      window.open(url, "_blank");
+    }, i * 700);
+  });
+}
+
+/* 第一组：DEPOSIT */
+function openDEPOSIT() {
+  openGroup([
+      "https://opback.mq88.club/login",
+      "https://opback.mq88.club/login",
+      "https://jd77.gd66.net/",
+      "https://jd77.gd66.net/",
+      "https://cuci99.cc/cuci99_8dc8866d33935cda974d1715",
+      "https://cuci99.cc/cuci99_8dc8866d33935cda974d1715",
+      "https://oauth.rebrandly.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D1FEB3DDD-8AC7-4F83-A2B3-ED4EB558DFA2%26redirect_uri%3Dhttps%253A%252F%252Fapp.rebrandly.com%26state%3DeyJwYXRoIjoiL2xpbmtzIn0%253D%26response_type%3Dcode%26acr_values%3Dcmd%253Arelogin%2520flow%253Auser%2520plan%253A16f08fb9749d417eb142a326a2d0527c%26scope%3Drbapi%2520offline_access%2520rbapikeys%2520rbinvites%2520rbdowngrade",
+      "https://livechatsupport.support/mqjdcc_chatroom_91418fde3ea4cadaa5f6efeb"
+  ]);
+}
+
+/* 第二组：WITHDRAW */
+function openWITHDRAW() {
+  openGroup([
+      "https://www.maybank2u.com.my/",
+      "https://www.cimboctobiz.com.my/",
+      "https://www.cimb.bizchannel.com.my/",
+      "https://s.hongleongconnect.my/",
+      "https://www.agronet.com.my/bib/common/Login.do",
+      "https://reflex.rhbgroup.com/",
+      "https://web.bimb.com/",
+      "https://mytelco.asia/",
+      "https://docs.google.com/spreadsheets/d/1qvwYdoiB1j9etEqj0VJ4gvxcXjRnXWclrlpckhsU8UQ/edit?gid=698403408#gid=698403408",
+      "https://docs.google.com/spreadsheets/d/1hU1Vcwtq1oxdRdcRORWjxV7rNII6IoqGMR2XPcsWmpw/edit?gid=690469729#gid=690469729",
+      "https://docs.google.com/spreadsheets/d/1CxhznTLjqVtFshmuo83gzev9bYYKcYTNtngqG2Yf_y0/edit?gid=1649824496#gid=1649824496",
+      "https://docs.google.com/spreadsheets/d/1iRhzSzgiL8p-We4p6DhS77PE28kCZtvyNZvbHA0KFhA/edit?gid=197875109#gid=197875109",
+      "https://docs.google.com/spreadsheets/d/1kKyZ_1OhDc0Go37lfWMy3RtFwaoTGXFuAMsDpzneUFk/edit?gid=0#gid=0",
+      "https://docs.google.com/spreadsheets/d/11QVZ7t_A-23m__RQsIKvWruQvMpr_kw5gdvubDqolag/edit?gid=0#gid=0",
+      "https://docs.google.com/spreadsheets/d/1E7X9oywEm8wmkiUWFkn0WGvMpbA1SQLS/edit?gid=1583339426#gid=1583339426",
+      "https://docs.google.com/spreadsheets/d/1yLa-d3YSuyKzl4sVh37sgr5ghNr7n0q7YpBrOARes6Q/edit?gid=1855343928#gid=1855343928"
+  ]);
+}
+</script>
+</body>
+</html>
